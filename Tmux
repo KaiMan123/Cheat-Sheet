@@ -1,0 +1,42 @@
+Cheat Sheet for tmux short up (not include command and sessions)
+To start tmux, just run
+> tmux
+To turn off tmux, just kill the windows 
+> ctrl+B+& (short-cut)
+
+** Short Cut ** (only include the short cut always used)
+<!-- Controlling tmux windows -->
+<!-- One windows can creat one tmux screen -->
+ctrl+B      c           create window
+ctrl+B      w           list windows
+ctrl+B      n           next window
+ctrl+B      p           previous window
+ctrl+B      f           find window
+ctrl+B      ,           name window
+ctrl+B      &           kill window
+ctrl+B      z           switch between tmux screen and windows
+
+<!-- Controlling current panes -->
+ctrl+B      "           horizontal split current panes
+ctrl+B      %           vertical split current panes
+ctrl+B      x           delete current panes
+ctrl+B      [           allow cursor to move in current panes
+ctrl        c           cancel the cursor free moving mode
+
+<!-- Change panes position -->
+ctrl+B+o                swap curent panes
+ctrl+B      {           swap current panes to left
+ctrl+B      }           swap current panes to right
+
+<!-- switch current panes -->
+ctrl+B      0           change to another panes 
+ctrl+B      up          change panes to the one above current one
+ctrl+B      down        change panes to the one below current one
+ctrl+B      left        change panes to the one on the left of current one
+ctrl+B      right       change panes to the one on the right of current one
+
+<!-- Change current panes size -->
+ctrl+B      up          Push the current pane border upward         (hold ctrl+B and then push up)
+ctrl+B      down        Push the current pane border downward       (hold ctrl+B and then push down)
+ctrl+B      left        Push the current pane border leftward       (hold ctrl+B and then push left)
+ctrl+B      right       Push the current pane border rightward      (hold ctrl+B and then push right)

@@ -1,3 +1,4 @@
+Cheat Sheet for Bluetoothctl
 ** The steps for connecting a device **
 scan                        Scan Options Submenu                                  ***********
 agent <on/off/capability>   Enable/disable agent with given capability            ***********
